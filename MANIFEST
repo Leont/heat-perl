@@ -1,4 +1,3 @@
-Crypto.c
 Crypto.xs
 curve25519_i64.c
 curve25519_i64.h
