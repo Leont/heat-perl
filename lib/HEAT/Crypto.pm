@@ -94,7 +94,7 @@ sub sign($$)
 	my $h = hash($m, $y->{p});
 
 	my $v = KEYBUFF;
-	if (_sign($v, $h, $x, $r->{s})) {
+	if (_sign($v, $h, $y->{k}, $r->{s})) {
 		return $v . $h;
 	}
 
